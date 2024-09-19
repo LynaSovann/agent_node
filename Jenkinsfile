@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    label 'ubuntu-agent-01'
+    label 'mvn'
   }
   environment {
     APP_NAME="t-twister"
